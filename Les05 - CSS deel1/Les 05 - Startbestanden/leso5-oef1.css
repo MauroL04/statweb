@@ -1,0 +1,26 @@
+body
+{
+    background-color: beige;
+}
+
+h1
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    text-align: center;
+    background-color: brown;
+    color: white;
+}
+
+h2
+{
+    background-color: white;
+    font-weight: 700;
+    border-left: 8px solid blue;
+    padding-left: 10px;
+}
+
+p
+{
+
+}

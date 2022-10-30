@@ -1,0 +1,92 @@
+html {
+    overflow: auto;
+  }
+
+/*Body*/
+  body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: burlywood;
+  }
+
+/*Site*/
+
+.logo{      
+    float: right;    
+    margin: 0 0 0 15px;
+}
+
+    /*Titel1*/
+h1{
+    font-size: xx-large;  
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    padding-left: 50px;
+    color: burlywood;   
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+}
+
+
+    /*Div menu*/
+.Menu{    
+    padding-top: 15px;
+    background-color: green;
+    float: left;
+    width: 100%; 
+  }
+
+
+    /*VerdelingsLijst*/
+ul{       
+    font-weight: 500;
+    font-size: large;    
+    list-style-type: none;    
+    padding-top: 0px;
+    padding-bottom: 0px;
+    overflow: hidden;    
+   
+}
+    /*eigenschappen*/
+li{
+    float: left;    
+}
+    
+li a{
+    color: burlywood;      
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;   
+}
+
+li a:hover:not(.active){
+    background-color: darkgreen;
+}
+/*Alleen huidige*/
+.active{    
+    color: darkgreen;
+    background-color: burlywood;    
+}
+
+div{
+    padding-bottom: 20px;
+}
+
+/*Tekst onderkant*/
+.Onderkant{
+    /*positie*/
+    position: absolute;
+    bottom: 0px;
+    width: 99%;
+    
+
+    color: burlywood;
+    font-size: large;
+    text-align: left;    
+    background-color: green;
+    text-align: left;
+    font-family: monospace;    
+}
+.CopyRight{
+    text-align: center;
+}

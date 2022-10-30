@@ -1,0 +1,8 @@
+a:visited
+{
+    color: red;
+}
+a.Dummy:visited 
+{
+    color: red;
+}
