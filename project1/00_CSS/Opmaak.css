@@ -6,34 +6,46 @@ html {
   body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: burlywood;
+        
   }
 
 /*Site*/
+    /*Titels en hr's*/
+.hrFade{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+ }
 
-.logo{      
-    float: right;    
-    margin: 0 0 0 15px;
-}
-
-    /*Titel1*/
 h1{
     font-size: xx-large;  
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    text-align: left;
-    padding-left: 50px;
+    text-align: center;
+    /*padding-left: 50px;*/
     color: burlywood;   
     padding-top: 0px;
     padding-bottom: 0px;
-
+}
+h2{    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: burlywood;
+    padding-top: 0px;
+    padding-bottom: opx    ;
+}
+h4{
+    padding-top: 20px;
 }
 
 
+
     /*Div menu*/
-.Menu{    
-    padding-top: 15px;
-    background-color: green;
-    float: left;
+.Menu{     
+    padding-top: 15px;     
+    padding-bottom: 15px;
+    background-color: green;    
     width: 100%; 
+    margin-bottom: 20px;   
   }
 
 
@@ -68,25 +80,71 @@ li a:hover:not(.active){
     background-color: burlywood;    
 }
 
-div{
-    padding-bottom: 20px;
-}
 
 /*Tekst onderkant*/
-.Onderkant{
-    /*positie*/
-    position: absolute;
-    bottom: 0px;
-    width: 99%;
-    
-
+.Onderkant{       
+    bottom: 0px;        
     color: burlywood;
     font-size: large;
     text-align: left;    
-    background-color: green;
-    text-align: left;
+    background-color: green;    
     font-family: monospace;    
 }
 .CopyRight{
     text-align: center;
+}
+/*Tables*/
+table{
+    border: 3px solid black;
+}
+th, td{
+    border: 1px solid black;
+    padding: 5px;
+}    
+th{
+    padding: 10px;   
+}
+
+/*Teksten pagina*/
+.tekst{     
+    color: burlywood;
+    background-color: green;
+    font-size: large;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+
+/*Teksten pagina: links tekst*/
+.tekst1{ 
+    display: flex;
+    width: 100%;                  
+    color: burlywood;
+    background-color: green;
+    font-size: large; 
+    margin-bottom: 20px;             
+}
+.childL{
+    flex: 1;
+    margin: 10px;       
+}
+.childL:last-child{
+    margin-right: 20px;
+    text-align: right;    
+}
+.Afbeelding1{        
+    display: inline-block;     
+    vertical-align: middle;   
+}
+
+/*Teksten pagina: rechts tekst*/
+.tekst2{                     
+    color: burlywood;
+    background-color: green;
+    font-size: large; 
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;   
 }

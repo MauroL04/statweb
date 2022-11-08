@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mauro: Contact info</title>
-
     <link rel="stylesheet" href="../00_CSS/Opmaak.css">
     <link rel="icon" href="../Symbolen/Logo/mauro-symbool-1.jpg">
 </head>
-<body>
-    <!--Boven en onderkant site-->
-    <div class="Menu">
-        <h1> Mauro Leonardo </h1>
 
+<body>
+    <!--Bovenkant-->
+    <div class="Menu">        
+        <h1> Mauro Leonardo </h1>
+        <hr class="hrFade"> 
         <ul>    
             <li><a href="../01_Home/Home.html">Home</a></li>
             <li><a href="../02_About/About.html">About me</a></li>
@@ -23,24 +23,82 @@
             <li><a class= "active" href="Contact.html">Contacts</a></li>
         </ul>
     </div>
-    <div class="Onderkant">
-        <p class="CopyRight">
-            <tr>
-                Symbool door Emma Cools, emmawolfcools@gmail.com &copy;2022-2023
-            </tr>
-        </p>
-        
-    </div>
-
+    
 
     <!--Tekst Contact pagina-->
-    <div>  
-        <h2>
-            Contact Pagina
-        </h2> 
-        <tr>
-            Hier komt uitleg over hoe je mij kan contacteren
-        </tr>
+    <div class="tekst"> 
+        <div>
+            <p>
+            
+                Er zijn verschillende manieren om mij te contacteren:
+                
+                <table>
+                    <tr>
+                        <th colspan="2">  
+                        Contactwijze
+                        </th>                    
+                    </tr>
+    
+                    <tr>
+                        <th>
+                            Email
+                        <td>
+                        eenVerzonnenEmail@hotmail.com
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <th>
+                           Telefoonnummer
+                        <td>
+                        +32 412 34 56 78
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <th>
+                           Facebook en instagram
+                        <td>
+                        voornaam_Achternaam
+                        </td>
+                    </tr>
+                    
+                </th>
+                </table>
+            </p>
+
+            <p>
+                <label for="Naam">Naam en voornaam:</label>
+                <input type="text" id="Naam" name="Naam" value=""><br>
+                <label for="Email">Email adres:</label>
+                <input type="text" id="Email" name="Email" value=""><br>
+                
+                <label for="VulIn">Bericht:</label>  
+                <textarea name="Tekst" id="tekst" cols="30" rows="10"></textarea></p>
+                <label for="Reden">Kies een onderwerp:</label> 
+                <select id="Reden" name="Reden" size="4">
+                    <option value="Vragen">Vragen</option>
+                    <option value="Solicitatie">Solicitatie</option>
+                    <option value="Werkervaring">WeWerkervaring</option>
+                    <option value="Curriculum Vitae">Curriculum Vitae</option>
+                    <option value="Bug report">Bug report</option>     
+                </select>
+        </div>
+        
+        
+                  
+        </div>
+
+    
+</table>
+    
+    
+    <!--Onderkant-->
+    <div class="Onderkant">
+        <p class="CopyRight">
+        Mauro Leonardo &copy;           
+        </p>
+        
     </div>
 </body>
 </html>
