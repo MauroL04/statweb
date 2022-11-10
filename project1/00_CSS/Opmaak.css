@@ -106,18 +106,8 @@ th{
 }
 
 /*Teksten pagina*/
-.tekst{     
-    color: burlywood;
-    background-color: green;
-    font-size: large;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-}
-
-
 /*Teksten pagina: links tekst*/
-.tekst1{ 
+.tekstL{ 
     display: flex;
     width: 100%;                  
     color: burlywood;
@@ -138,7 +128,20 @@ th{
     vertical-align: middle;   
 }
 
-/*Teksten pagina: rechts tekst*/
+/*Teksten pagina: links tekst*/
+.tekstR{ 
+    display: flex;
+    width: 100%;                  
+    color: burlywood;
+    background-color: green;
+    font-size: large; 
+    margin-bottom: 20px; 
+}
+.Afbeelding2{
+    float: left;    
+}
+
+/*Tekst soort 2*/
 .tekst2{                     
     color: burlywood;
     background-color: green;
